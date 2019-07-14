@@ -36,9 +36,10 @@
                 user-select: none;          /* Likely future */      
             }
             .footer {
-                /* flex-shrink: 0; */
+                flex-shrink: 0;
                 padding: 0px;
                 background-color: white;
+                margin-bottom: 20px;
             }
 
             .header {
@@ -56,6 +57,9 @@
                 div.recentre {
                     text-align: right;
                 }
+                .footer {
+                    margin-bottom: 30px;
+                }
             }
             @media screen and (max-width: 950px) {
                 div.resize {
@@ -69,23 +73,35 @@
                     padding-bottom: 30px;
                 }
             }
+            .site {
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;
+            }
+            .site-content {
+                flex: 1;
+            }
+
+            .centreContainer {
+                text-align: center;
+            }
 
         </style>
 
         
     </head>
-    <body>
-        <div class="content">
+    <body class="site">
+        <div class="content site-content">
             <div class="hero-head header">
                 <nav class="navbar-centered noSelect">
   <p>
-    <a class="chooseable" href="/" style="text-transform: uppercase "><strong>Emily Y Leung</strong></a> 
+    <a class="chooseable" href="https://emilyyleung.github.io/" style="text-transform: uppercase "><strong>Emily Y Leung</strong></a> 
     /
-    <a class="chooseable" href="/blog/" style="text-transform: uppercase">Blog</a>
+    <a class="chooseable" href="https://emilyyleung.github.io/blog/" style="text-transform: uppercase">Blog</a>
     / 
-    <a class="chooseable" href="/portfolio/" style="text-transform: uppercase">Portfolio</a>
+    <a class="chooseable" href="https://emilyyleung.github.io/portfolio/" style="text-transform: uppercase">Portfolio</a>
     / 
-    <a class="chooseable" href="/resume-cv/" style="text-transform: uppercase">Resume + CV</a>
+    <a class="chooseable" href="https://emilyyleung.github.io/resume-cv/" style="text-transform: uppercase">Resume + CV</a>
   </p>
 </nav>
             </div>
@@ -188,6 +204,12 @@ window.onbeforeunload = function() {
   <b>Copyright © Emily Y Leung <a class="chooseable" style="color: #3ad69d" href="mailto: emily_y_leung@outlook.com">emily_y_leung@outlook.com</a></b>
 </div>
     </footer>
+</div>
+        </div>
+
+        <div class="footer" id="noSelect">
+            <div class="has-text-centered">
+  <b>Copyright © Emily Y Leung <a class="chooseable" style="color: #3ad69d" href="mailto: emily_y_leung@outlook.com">emily_y_leung@outlook.com</a></b>
 </div>
         </div>
     </body>
