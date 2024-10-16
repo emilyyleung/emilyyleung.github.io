@@ -4,7 +4,7 @@ Jake Parker - [You Need a Product not a Project e041](https://www.youtube.com/wa
 
 Indiehackers - [Becoming the Internet's Most Prolific Maker with Mubashar Iqbal](https://www.indiehackers.com/podcast/025-mubashar-iqbal-ph-maker-of-the-year)
 
-[Increase your productivity on personal projects with comprehensive docs and automated tests - DCUS](https://www.youtube.com/watch?v=GLkRK2rJGB)0
+[Increase your productivity on personal projects with comprehensive docs and automated tests - DCUS](https://www.youtube.com/watch?v=GLkRK2rJGB0)
 
 [Every Developer Needs a Raspberry Pi](https://youtu.be/Vp4glSVPT8o?si=shJsh8lO7ue8xcs4)
 
