@@ -33,3 +33,7 @@
 ## Ben Davis
 
 - [How I Build More Projects](https://www.youtube.com/watch?v=isTO0NahEM8)
+
+## Eric Pfohl
+
+- [How to use pocket notebooks (and document your life)](https://www.youtube.com/watch?v=gY2p4b1-HBg)
