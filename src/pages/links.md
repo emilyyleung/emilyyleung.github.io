@@ -41,3 +41,7 @@
 ## ModernHealthMonk
 
 - [This One-Page Productivity Hack Will Change Your Life](https://www.youtube.com/watch?v=MYk1hPdvgVU)
+
+## Coding in Public
+
+- [How to Safely Update NPM Packages](https://www.youtube.com/watch?v=0XQXGx3lLaU)
