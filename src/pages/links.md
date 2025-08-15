@@ -45,3 +45,7 @@
 ## Coding in Public
 
 - [How to Safely Update NPM Packages](https://www.youtube.com/watch?v=0XQXGx3lLaU)
+
+## Y Combinator
+
+- [How To Get The Most Out Of Vibe Coding | Startup School](https://www.youtube.com/watch?v=BJjsfNO5JTo)
