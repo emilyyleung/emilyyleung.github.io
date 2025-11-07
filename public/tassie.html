@@ -1,342 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Tasmania 3-Day Itinerary</title>
-
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tassie Adventure 🌿</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
+        font-family: "Poppins", sans-serif;
+      }
+      h2::before {
+        content: "✈️ ";
+      }
+    </style>
   </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <div class="title-group">
-          <h1 class="site-title">🌿 Tasmania 3-Day Itinerary</h1>
-          <p class="subtitle">
-            Dates: Saturday 8 Nov – Tuesday 11 Nov 2025 · Base: Hobart + Port
-            Arthur
-          </p>
-        </div>
-        <div class="meta">
-          <p class="soft-pill">Optimised for scenic views & fun</p>
-        </div>
-      </div>
+  <body class="min-h-screen text-slate-700">
+    <header class="text-center py-10">
+      <h1 class="text-4xl md:text-5xl font-bold text-emerald-700 mb-3">
+        Tasmania Itinerary
+      </h1>
+      <p class="text-lg italic text-emerald-600">
+        A whimsical long weekend through Hobart & the Tasman Peninsula ✨
+      </p>
     </header>
 
-    <main class="container">
+    <main class="max-w-3xl mx-auto px-5 space-y-10 pb-16">
       <!-- Day 1 -->
-      <section class="day-card" id="day1">
-        <h2 class="day-title">
-          🥐 Day 1 — Salamanca Market, Battery Point & MONA
+      <section
+        class="bg-white/80 rounded-2xl shadow-lg p-6 backdrop-blur-sm border border-emerald-100 hover:shadow-xl transition-all duration-300"
+      >
+        <h2 class="text-2xl font-semibold text-emerald-800 mb-4">
+          Day 1 - Hobart Arrival 🌸
         </h2>
-        <div class="two-col">
-          <div>
-            <h3>Morning</h3>
-            <ul>
-              <li>
-                Arrive Hobart 8:30 am. Drop bags at
-                <a href="https://www.montacutehobart.com.au/" target="_blank"
-                  >Montacute Boutique Bunkhouse</a
-                >.
-              </li>
-              <li>
-                9:00 am – 1:30 pm: Explore <strong>Salamanca Market</strong> —
-                local crafts, vegetarian food stalls, live music.
-              </li>
-              <li>
-                <a href="https://www.salamancamarket.com.au/" target="_blank"
-                  >Salamanca Market website</a
-                >
-              </li>
-            </ul>
-
-            <h3>Afternoon</h3>
-            <ul>
-              <li>
-                1:30 pm – 3:00 pm: Wander through
-                <strong>Battery Point</strong> — colonial streets & cosy cafés.
-              </li>
-              <li>
-                3:00 pm – 5:30 pm: Optional visit to <strong>MONA</strong> —
-                ferry or drive.
-              </li>
-              <li>
-                <a href="https://mona.net.au/" target="_blank">MONA website</a>
-              </li>
-            </ul>
-
-            <h3>Evening</h3>
-            <p>
-              Dinner near Salamanca: <em>Smolt Kitchen</em>, <em>Veg Bar</em>,
-              or <em>Pigeon Hole Café</em>. Optional sunset waterfront walk.
-            </p>
-          </div>
-          <aside class="photo-aside">
-            <figure>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/1/15/Hobart_-_Salamanca_Market_-_Oct_2010_01.jpg"
-                alt="Salamanca Market"
-              />
-              <figcaption>
-                Salamanca Market — handmade stalls & fresh bread
-              </figcaption>
-            </figure>
-            <div class="map-placeholder">
-              <p class="map-title">Mini-Map — Day 1</p>
-              <div class="map-box">
-                [Insert mini map: Montacute → Salamanca → Battery Point → MONA →
-                Waterfront]
-              </div>
-            </div>
-          </aside>
-        </div>
+        <ul class="space-y-2">
+          <li>6:00 am - ✈️ Flight from Sydney</li>
+          <li>8:30 am - Arrive Hobart, collect rental car by 10:00 am</li>
+          <li>
+            10:15 - 1:30 pm - 🛍️ Salamanca Market, wander cute shops &
+            second-hand stalls
+          </li>
+          <li>2:00 - 5:00 pm - 💰 MONA (Museum of Old & New Art)</li>
+          <li>5:00 - 7:00 pm - 📸 View of Hobart from Mt Wellington</li>
+          <li>7:30 pm - Dinner in Hobart</li>
+        </ul>
+        <p class="mt-4 text-sm italic text-emerald-600">
+          🛏 Stay: Montacute Boutique Bunkhouse
+        </p>
       </section>
 
       <!-- Day 2 -->
-      <section class="day-card" id="day2">
-        <h2 class="day-title">
-          🏔️ Day 2 — Mt Wellington, Tasman Peninsula & Port Arthur
+      <section
+        class="bg-white/80 rounded-2xl shadow-lg p-6 backdrop-blur-sm border border-emerald-100 hover:shadow-xl transition-all duration-300"
+      >
+        <h2 class="text-2xl font-semibold text-emerald-800 mb-4">
+          Day 2 - Tasman Peninsula 🌿
         </h2>
-        <div class="two-col reverse">
-          <div>
-            <h3>Morning</h3>
-            <ul>
-              <li>7:00 am: Pick up rental car.</li>
-              <li>
-                7:15–9:00 am: Drive & explore
-                <strong>Mt Wellington / kunanyi</strong>. Organ Pipes & Pinnacle
-                Lookout.
-              </li>
-              <li>
-                <a
-                  href="https://www.parks.tas.gov.au/index.aspx?base=4415"
-                  target="_blank"
-                  >Mt Wellington walks map</a
-                >
-              </li>
-            </ul>
-
-            <h3>Midday</h3>
-            <ul>
-              <li>
-                9:00–10:30 am: Drive to <strong>Eaglehawk Neck</strong> —
-                Tessellated Pavement, Tasman Arch, Devil's Kitchen.
-              </li>
-              <li>
-                10:30 am – 1:00 pm: <strong>Fortescue Bay</strong> — picnic,
-                short walk, swim (~14°C).
-              </li>
-            </ul>
-
-            <h3>Afternoon/Evening</h3>
-            <ul>
-              <li>
-                1:30–5:00 pm: <strong>Port Arthur Historic Site</strong> —
-                museum, ruins, harbour cruise (3–4 hrs).
-              </li>
-              <li>Optional sunset: Remarkable Cave.</li>
-              <li>
-                Overnight in Port Arthur (NRMA Holiday Park or Motor Inn
-                recommended).
-              </li>
-            </ul>
-          </div>
-          <aside class="photo-aside">
-            <figure>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Mount_Wellington_view_-_Hobart.jpg"
-                alt="Mt Wellington"
-              />
-              <figcaption>Mt Wellington — panoramic lookout</figcaption>
-            </figure>
-            <figure>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/6/69/Tessellated_pavement_Tasmania_1.jpg"
-                alt="Tessellated Pavement"
-              />
-              <figcaption>
-                Tessellated Pavement — unique rock formations
-              </figcaption>
-            </figure>
-            <div class="map-placeholder">
-              <p class="map-title">Mini-Map — Day 2</p>
-              <div class="map-box">
-                [Insert mini map: Hobart → Mt Wellington → Eaglehawk Neck →
-                Fortescue Bay → Port Arthur]
-              </div>
-            </div>
-          </aside>
-        </div>
+        <ul class="space-y-2">
+          <li>7:30 am - Breakfast</li>
+          <li>
+            8:00 - 9:00 am - 🏔️ Mt Wellington summit (short walk/viewpoint)
+          </li>
+          <li>9:00 - 10:30 am - Drive to Tasman Peninsula</li>
+          <li>10:30 - 11:00 am - 📸 Tessellated Pavement</li>
+          <li>11:00 am - 12:00 pm - 📸 Tasman Arch & Devil’s Kitchen</li>
+          <li>
+            12:00 - 2:30 pm - 🥾 Waterfall Bay Track (~1.5 hr) — lunch break
+            mid-way
+          </li>
+          <li>2:30 - 3:30 pm - Scenic drive / check-in at NRMA Port Arthur</li>
+          <li>3:30 - 6:30 pm - Chill at accommodation, dinner</li>
+          <li>
+            7:00 - 8:00 pm - 🌅 Short walk / sunset at Remarkable Cave or
+            Maingon Bay
+          </li>
+        </ul>
+        <p class="mt-4 text-sm italic text-emerald-600">
+          🛏 Stay: NRMA Port Arthur
+        </p>
       </section>
 
       <!-- Day 3 -->
-      <section class="day-card" id="day3">
-        <h2 class="day-title">
-          🌲 Day 3 — Coastal Views & Mount Field National Park
+      <section
+        class="bg-white/80 rounded-2xl shadow-lg p-6 backdrop-blur-sm border border-emerald-100 hover:shadow-xl transition-all duration-300"
+      >
+        <h2 class="text-2xl font-semibold text-emerald-800 mb-4">
+          Day 3 - Port Arthur & Cape Hauy 🏞️
         </h2>
-        <div class="two-col">
-          <div>
-            <h3>Morning</h3>
-            <ul>
-              <li>7–8 am: Relax or short morning walk near Port Arthur.</li>
-              <li>
-                8:00–10:30 am: Drive to Mount Field National Park (~2 hr).
-                Optional Pirates Bay lookout stop.
-              </li>
-            </ul>
-
-            <h3>Afternoon</h3>
-            <ul>
-              <li>
-                10:30–3:30 pm: Explore Mount Field — Russell Falls, Horseshoe
-                Falls, Tall Trees Walk (~1.5–2 hrs).
-              </li>
-              <li>
-                <a
-                  href="https://parks.tas.gov.au/explore-our-parks/mount-field-national-park"
-                  target="_blank"
-                  >Mount Field NP map</a
-                >
-              </li>
-            </ul>
-
-            <h3>Evening</h3>
-            <p>
-              3:30–5:00 pm: Drive back to Hobart. Return rental car. Dinner at
-              Montacute Boutique Bunkhouse.
-            </p>
-          </div>
-          <aside class="photo-aside">
-            <figure>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/35/Russell_Falls_3.jpg"
-                alt="Russell Falls"
-              />
-              <figcaption>
-                Russell Falls — iconic cascade in Mount Field
-              </figcaption>
-            </figure>
-            <div class="map-placeholder">
-              <p class="map-title">Mini-Map — Day 3</p>
-              <div class="map-box">
-                [Insert mini map: Port Arthur → Pirates Bay → Mount Field →
-                Hobart]
-              </div>
-            </div>
-          </aside>
-        </div>
+        <ul class="space-y-2">
+          <li>
+            8:30 - 12:00 pm - 💰 Port Arthur Historic Site (~3 hr, includes
+            harbour cruise)
+          </li>
+          <li>12:00 - 1:00 pm - Lunch</li>
+          <li>1:30 - 4:00 pm - 🥾 Cape Hauy half-track hike (~2 hr)</li>
+          <li>3:00 - 5:30 pm - Drive back to Hobart</li>
+          <li>6:00 pm - Dinner</li>
+        </ul>
+        <p class="mt-4 text-sm italic text-emerald-600">
+          🛏 Stay: Montacute Boutique Bunkhouse
+        </p>
       </section>
 
-      <!-- Logistics & Links -->
-      <section class="logistics">
-        <h2 class="section-title">Logistics & Notes</h2>
-        <ul class="notes">
-          <li>
-            Early morning transfer on Day 4 to Hobart Airport for 8:30 am
-            flight.
-          </li>
-          <li>Salamanca Market: excellent vegetarian options; bring a tote.</li>
-          <li>
-            Port Arthur food options are limited — pack snacks or self-cater.
-          </li>
-          <li>
-            Weather: November = spring, changeable; pack layers, waterproof
-            jacket.
-          </li>
-          <li>
-            Sea temps: ~12–16°C; Fortescue Bay & Pirates Bay good for quick
-            swim.
-          </li>
-        </ul>
+      <!-- Map Placeholder -->
+      <section
+        class="bg-emerald-50/80 rounded-2xl shadow-inner p-6 border border-emerald-100 text-center"
+      >
+        <h3 class="text-xl font-semibold text-emerald-800 mb-3">🗺️ Trip Map</h3>
+        <p class="text-sm text-emerald-700 italic mb-4">
+          See the full journey across Tasmania 💫
+        </p>
 
-        <h3 class="section-title">Driving Times</h3>
-        <table class="ref-table">
-          <thead>
-            <tr>
-              <th>Segment</th>
-              <th>Time</th>
-              <th>Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Hobart → Mt Wellington</td>
-              <td>20 min</td>
-              <td>Scenic road</td>
-            </tr>
-            <tr>
-              <td>Hobart → Eaglehawk Neck</td>
-              <td>1.5 hr</td>
-              <td>Via Tasman Hwy</td>
-            </tr>
-            <tr>
-              <td>Eaglehawk Neck → Fortescue Bay</td>
-              <td>25 min</td>
-              <td>Narrow road</td>
-            </tr>
-            <tr>
-              <td>Fortescue Bay → Port Arthur</td>
-              <td>25 min</td>
-              <td>Easy drive</td>
-            </tr>
-            <tr>
-              <td>Port Arthur → Mount Field NP</td>
-              <td>2 hr</td>
-              <td>Via Taranna & New Norfolk</td>
-            </tr>
-            <tr>
-              <td>Mount Field NP → Hobart</td>
-              <td>1.5 hr</td>
-              <td>Return drive</td>
-            </tr>
-          </tbody>
-        </table>
+        <!-- Replace this div with your actual Google Maps iframe -->
+        <!-- <div
+          class="w-full h-64 md:h-96 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-xl flex items-center justify-center text-emerald-700 font-medium"
+        >
+          [ Google Map Placeholder ]
+        </div> -->
 
-        <h3 class="section-title">Useful Links</h3>
-        <ul class="links">
-          <li>
-            <a href="https://parks.tas.gov.au" target="_blank"
-              >Tasmanian Parks & Wildlife</a
-            >
-          </li>
-          <li>
-            <a href="https://www.discovertasmania.com.au" target="_blank"
-              >Discover Tasmania</a
-            >
-          </li>
-          <li>
-            <a href="https://www.metrotas.com.au" target="_blank"
-              >Hobart Public Transport</a
-            >
-          </li>
-        </ul>
+        <!-- Example embed for later:
+      <iframe
+        src="YOUR_GOOGLE_MAPS_EMBED_URL"
+        width="100%"
+        height="400"
+        style="border:0; border-radius: 1rem;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+      -->
 
-        <div class="final-map">
-          <p class="map-title">Final Route Overview</p>
-          <div class="map-box">[Insert full Tasmania map with all markers]</div>
-        </div>
+        <iframe
+          src="https://www.google.com/maps/d/u/2/embed?mid=1vJekBXC3VZoSBt2--jbiD-a3EiKIWvM&ehbc=2E312F"
+          width="100%"
+          height="400"
+          style="border: 0; border-radius: 1rem"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
       </section>
-
-      <footer class="farewell">
-        <p>
-          🌺
-          <em
-            >May your Tasmania adventure be full of fresh air, sea spray, and
-            forest light.</em
-          >
-        </p>
-        <p class="small">
-          Editable HTML/CSS template — perfect for building a website or
-          personalizing further!
-        </p>
-      </footer>
     </main>
+
+    <footer class="text-center py-10 text-emerald-600 text-sm">
+      Made with 🌿 and wanderlust · © 2025
+    </footer>
   </body>
 </html>
